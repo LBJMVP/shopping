@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*清除浮动*/
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*清除浮动IE6兼容*/
+clearfix {
+	zoom:1;
+}
+/*左浮动*/
+.f1 {
+	float:left;
+}
+.fr {
+	float: right;
+}
+/*公共宽度*/
+.comWidth {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*左侧浮动*/
+.leftArea {
+	float: left;
+}
+.rightArea {
+	float: right;
+}
+/*顶部按钮*/
+.topBar {
+	height: 31px;
+	background-color: #f7f7f7;
+	line-height: 31px;
+}
+/*收藏*/
+.collection {
+	background: url(images/icon/collection.png) left center no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.TopBar a:hover{
+	color: #f00;
+}
+/*logo部分*/
+.logoBar {
+	height: 85px;
+	background: #1d7ad9;
+}
+.logo{
+	display: block;
+}
+/*搜索框*/
+.search_box {
+	width: 430px;
+	padding-top: 23px;
+	padding-left: 185px;
+}
+.search_text {
+	width: 350px;
+	height: 35px;
+	padding: 0px 5px;
+	background: #fff;
+	line-height: 35px\9;
+}
+.search_button {
+	width: 70px;
+	height: 3px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	background: #ff8c00;
+	color: #fff;
+	cursor: pointer; 
+}
+/*购物车*/
+.shopCar {
+	width: 145px;
+	height: 35px;
+	background: #ff8c00;
+	color: #fff;
+	margin-top: 23px;
+	margin-right: 59px;
+}
+.shopText {}

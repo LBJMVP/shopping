@@ -1,0 +1,43 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 12px;
+	font-family: 
+}
+
+img {
+	border:none;
+}
+
+li {
+	list-style: none;
+}
+
+input,select,textarea {
+	outline: none;
+	border:none;
+	/*IE6兼容*/
+	background: none;
+}
+
+a {
+	text-decoration: none;
+	color: #656565;
+}
+/*收藏*/
+
+.collection {
+	background: url(../images/icon/collection.png) left center no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.TopBar{
+	line-height: 31px;
+}
+.headBar{
+	
+}
